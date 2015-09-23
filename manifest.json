@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "SCM Browser",
+  "description": "browse scm pages",
+  "version": "1.0",
+
+
+  "app": {
+      "background": {
+        "scripts": ["background.js"]
+      }
+    },
+  "permissions": [
+   "https://*/"
+   ]
+}
